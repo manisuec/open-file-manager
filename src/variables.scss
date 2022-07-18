@@ -1,0 +1,16 @@
+// Variables
+$manisuec-black: #131111;
+
+:root {
+  --background: #fff;
+  --font-color: #494949;
+  --link-color: #0000ff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #696969;
+    --font-color: #fafafa;
+    --link-color: #0000ff;
+  }
+}
