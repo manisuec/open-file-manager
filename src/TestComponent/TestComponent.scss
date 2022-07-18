@@ -1,0 +1,19 @@
+@import "../variables.scss";
+@import "../typography.scss";
+
+.test-component {
+  background-color: var(--background);
+  color: var(--font-color);
+  border: 1px solid $manisuec-black;
+  padding: 16px;
+  width: 25rem;
+  text-align: center;
+
+  .heading {
+    @include heading;
+  }
+}
+
+.link {
+  color: var(--link-color);
+}
