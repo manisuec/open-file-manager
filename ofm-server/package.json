@@ -1,0 +1,19 @@
+{
+  "name": "ofm-server",
+  "version": "1.0.0",
+  "description": "open file server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/manisuec/open-file-manager.git"
+  },
+  "author": "manisuec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manisuec/open-file-manager/issues"
+  },
+  "homepage": "https://github.com/manisuec/open-file-manager#readme"
+}
