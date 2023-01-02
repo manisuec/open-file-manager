@@ -1,8 +1,8 @@
 import React from "react";
-import TestComponent from "./TestComponent";
+import OFMLayout from "./OFMLayout";
 
 export default {
-  title: "TestComponent"
+  title: "Open File Manager"
 };
 
 const Content = () => {
@@ -17,14 +17,14 @@ const Content = () => {
 }
 
 export const WithText = () => (
-  <TestComponent
+  <OFMLayout
     heading="I am a test component"
     content={<Content />}
   />
 );
 
 export const WithButtons = () => (
-  <TestComponent
+  <OFMLayout
     heading="I have a button"
     content={
       <div>

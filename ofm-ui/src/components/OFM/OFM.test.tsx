@@ -1,13 +1,13 @@
 import React from "react";
 import { render, within } from "@testing-library/react";
 
-import TestComponent from "./TestComponent";
-import { TestComponentProps } from "./TestComponent.types";
+import OFM from "./OFMLayout";
+import { OFMProps } from "./OFM.types";
 
-describe("TestComponent", () => {
-  const renderComponent = ({ heading, content }: Partial<TestComponentProps>) =>
+describe("OFM", () => {
+  const renderComponent = ({ heading, content }: Partial<OFMProps>) =>
     render(
-      <TestComponent
+      <OFM
         heading={heading || "Default heading text"}
         content={content || <div>Default content</div>}
       />
@@ -18,9 +18,9 @@ describe("TestComponent", () => {
 
     const { getByTestId } = renderComponent({ heading: headingText });
 
-    const testComponent = getByTestId("test-component__heading");
+    const OFM = getByTestId("test-component__heading");
 
-    expect(testComponent).toHaveTextContent(headingText);
+    expect(OFM).toHaveTextContent(headingText);
   });
 
   it("should render content correctly", () => {

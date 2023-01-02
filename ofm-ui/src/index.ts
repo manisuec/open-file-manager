@@ -1,3 +1,3 @@
-import TestComponent from "./components/TestComponent";
+import OFMLayout from "./components/OFM";
 
-export { TestComponent };
+export { OFMLayout };
