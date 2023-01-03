@@ -7,7 +7,7 @@ import { formatSize } from '../../../../helpers/mathutil';
 import { getExtensionFromMimeType } from '../../../../helpers/mimeTypeHelper';
 import { TagProps } from '../../../../interfaces/Task';
 import { RootState } from '../../../../reducers';
-import { TagEditor, EditFileName, EditFileDescription } from './InfoEdit';
+import { TagEditor, EditFileName, EditFileDescription } from './info_edit';
 import { CustomTableCell } from '../../../common';
 
 export default function FileInfo() {

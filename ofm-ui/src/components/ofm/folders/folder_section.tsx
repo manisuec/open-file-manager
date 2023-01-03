@@ -3,14 +3,14 @@ import { FolderRounded } from '@material-ui/icons';
 import { Grid, IconButton } from '@material-ui/core';
 import { Link, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+import Info from '@material-ui/icons/Info';
 
-import UploadDriveFile from '../Files/UploadDriveFile';
+import UploadDriveFile from '../files/upload_file';
 import { getFolderDetail } from '../../../actions/drive';
 import { trimString } from '../../../utils/utils';
 import { RootState } from '../../../reducers';
 import { DriveFolderProps } from '../../../interfaces/Drive';
-import FolderInfo from './FolderInfo';
-import Info from '@material-ui/icons/Info';
+import FolderInfo from './folder_info';
 
 const FolderSection = () => {
   const dispatch = useDispatch();

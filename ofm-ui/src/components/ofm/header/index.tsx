@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { BackupRounded } from '@material-ui/icons';
 import { Grid } from '@material-ui/core';
 
-import CreateFolder from './CreateFolder';
-import UploadDriveFile from '../Files/UploadDriveFile';
+import CreateFolder from './create_folder';
+import UploadDriveFile from '../files/upload_file';
 import { CustomButton } from '../../common';
 
 export default function DriveHeader() {

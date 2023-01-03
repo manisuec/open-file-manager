@@ -15,9 +15,9 @@ import {
   DRIVE_UPLOAD_FILE_RESET,
   DRIVE_FILE_SHARE_RESET,
 } from '../../../../actions/drive/types';
-import FileInfo from './FileInfo';
-import VersionHistory from './VersionHistory';
-import VersionUpdate from './VersionUpdate';
+import FileInfo from './file_info';
+import VersionHistory from './version_history';
+import VersionUpdate from './version_update';
 
 function TabPanel(props: any) {
   const { children, value, index, ...other } = props;

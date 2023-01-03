@@ -23,7 +23,7 @@ import {
   CustomTableCell,
   SideScreenDialog,
 } from '../../common';
-import { EditFileDescription, EditFileName } from './FolderInfoEdit';
+import { EditFileDescription, EditFileName } from './folder_info_edit';
 
 export default function FileInfo({ open, setOpen }: any) {
   const dispatch = useDispatch();

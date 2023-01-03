@@ -44,7 +44,7 @@ import { DRIVE_FILE_SHARABLE_LINK } from '../../../actions/drive/types';
 import { getExtensionFromMimeType } from '../../../helpers/mimeTypeHelper';
 import { DriveFileProps } from '../../../interfaces/Drive';
 import { TagProps } from '../../../interfaces/Task';
-import InfoSidebar from './InfoSidebar';
+import InfoSidebar from './info_sidebar';
 import FileIcon from '../../common/FileIcon';
 
 const FileSection = () => {
