@@ -1,1 +1,1 @@
-export { default } from "./OFMLayout";
+export { default } from "./ofm_layout";

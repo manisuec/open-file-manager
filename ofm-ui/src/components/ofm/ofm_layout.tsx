@@ -1,7 +1,7 @@
 import React from "react";
 
 import AppBar from './../layout/AppBar';
-import { OFMProps } from "./OFM.types";
+import { OFMProps } from "./ofm.types";
 
 import "./ofm.scss";
 

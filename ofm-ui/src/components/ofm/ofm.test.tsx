@@ -1,8 +1,8 @@
 import React from "react";
 import { render, within } from "@testing-library/react";
 
-import OFM from "./OFMLayout";
-import { OFMProps } from "./OFM.types";
+import OFM from "./ofm_layout";
+import { OFMProps } from "./ofm.types";
 
 describe("OFM", () => {
   const renderComponent = ({ heading, content }: Partial<OFMProps>) =>

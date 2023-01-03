@@ -1,5 +1,5 @@
 import React from "react";
-import OFMLayout from "./OFMLayout";
+import OFMLayout from "./ofm_layout";
 
 export default {
   title: "Open File Manager"
